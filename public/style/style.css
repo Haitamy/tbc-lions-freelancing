@@ -1,0 +1,197 @@
+@font-face {
+  font-family: font-lions;
+  src: url(../font/lions_police.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(../images/bgimg.jpg);
+}
+.title h1 {
+  font-family: font-lions;
+  margin-left: 5%;
+  font-size: 50px;
+  color: #ffc83c;
+  text-shadow: 6px 8px 3px rgba(0, 0, 0, 0.5);
+}
+.title img {
+    padding: 1%;
+  width: 7%;
+  border-radius: 50%;
+  box-shadow: 25px 25px 28px 0px rgba(0, 0, 0, 0.5);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #085d82;
+  padding: 2% 0;
+}
+#nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 20px;
+  padding: 2% 0;
+  background-color: #ffc73c;
+  font-family: font-lions;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4);
+}
+#nav a {
+  text-decoration: none;
+  color: #085d82;
+}
+.welcome h1 {
+  text-align: center;
+  margin-top: 5%;
+  font-family: font-lions;
+  color: #ffc73c;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.6);
+}
+.welcome img {
+  width: 30%;
+  margin: 5% 35%;
+}
+.d-none {
+  display: none; 
+}
+.myNews {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.news {
+  background-color: rgb(233, 226, 197);
+  margin: 5%;
+  border-radius: 10px;
+}
+.newsLogo {
+  text-align: center;
+}
+.newsLogo img {
+  width: 25%;
+}
+.article {
+  width: 35%;
+  margin: 5% 0;
+}
+.article img {
+  width: 100%;
+  border: solid black 1px;
+  padding: 5%;
+}
+.article h3 {
+  font-size: 35px;
+  font-family: font-lions;
+  margin-bottom: 5%;
+}
+.newsContent {
+  margin-top: 5%;
+  text-align: justify;
+}
+.date {
+  color: grey;
+  text-align: right;
+  margin-top: 5%;
+}
+#divTeam {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.team {
+  background-color: #ffc73c;
+  color: #085d82;
+  width: 30%;
+  padding:3% 2%;
+  margin-bottom: 2%;
+  text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 2%;
+  box-shadow: 15px 15px 5px 0px rgba(0,0,0,0.5);
+  text-align: center;
+}
+.team h3 {
+  text-align: center;
+  font-family: font-Lions;
+  font-size: 25px;
+  margin-bottom: 2%;
+}
+.team img {
+  width: 100%;
+  border-radius: 10px;
+}
+.team p{
+    margin-top: 2%;
+    font-size: 20px;
+    text-align: center;
+}
+.panelTeam{
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+.teamCards{
+    color:#ffc73c;
+    background-color:#085d82;
+    margin: 0%;
+    padding: 2% 0%;
+    width: 15%;
+}
+.teamCards h4{
+    font-size: 25px;
+}
+.flex{
+    display: flex;
+}
+.panelTeam img{
+    width: 50%;
+}
+.teamBtn{
+    margin-top: 5%;
+    padding: 3% 5%;
+    font-size: 20px;
+    background-color: #ffc73c;
+    border: solid 3px #085d82 ;
+    color: #085d82;
+    border-radius: 30px;
+}
+.teamBtn:hover{
+    background-color: #085d82;
+    color: #ffc73c;
+    cursor: pointer;
+}
+.classement{
+    background-color:#085d82;
+    width: 30%;
+    height: 150%;
+    margin: 5%;
+    padding: 5%;
+}
+.board{
+    color: #ffc73c;
+    font-family: font-lions;
+    font-size: 30px;
+}
+.boardTeam{
+    color: #ffc73c;
+}
+#classement{
+    display:flex ;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+td{
+    width: 0%;
+}
+th{
+    width: 2%;
+    height: 50px;
+}
+th>div{
+    width: 40%;
+}
